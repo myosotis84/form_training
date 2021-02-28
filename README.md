@@ -1,1 +1,10 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Notions utilisées
+## Devise
+- Champs custom sur User (et adaptation formulaires basiques de Devise)
+## Modèles
+### Callbacks
+- Before_save avec condition de modification
+### Polymorphisme
+- Likes : peuvent être sur des artistes, des albums ou des songs
+### Validations
+- Uniqueness sur combo d'attributs
