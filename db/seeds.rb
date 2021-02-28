@@ -13,9 +13,11 @@ AlbumArtist.create!([
 Song.create!([
   {title: "What Child Is This", duration: 194400, album_id: 1}
 ])
-Like.create!([
-  {user_id: 1, likeable_type: "Song", likeable_id: 1}
-])
 SongArtist.create!([
   {artist_id: 1, song_id: 1}
+])
+Like.create!([
+  {user_id: 1, likeable_type: "Song", likeable_id: 1},
+  {user_id: 1, likeable_type: "Album", likeable_id: 1},
+  {user_id: 1, likeable_type: "Artist", likeable_id: 1}
 ])
